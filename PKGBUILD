@@ -14,5 +14,5 @@ sha256sums=('SKIP')
 package() {
     cd "$pkgname"
     install -d "${pkgdir}/etc/skel/.config/dunst/"
-    install -Dm 644 "dunstrc" "${pkgdir}/etc/skel/.config/dunst/dunst.conf"
+    install -Dm 644 "dunstrc" "${pkgdir}/etc/skel/.config/dunst/dunstrc"
 }
