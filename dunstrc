@@ -1,0 +1,83 @@
+[global]
+    alignment = center
+    always_run_script = true
+    browser = librewolf --new-tab
+    class = Dunst
+    corner_radius = 20
+    dmenu = /usr/bin/dmenu -p dunst:
+    ellipsize = middle
+    follow = mouse
+    font = FiraCode Nerd Font 10
+    force_xinerama = false
+    force_xwayland = false
+    format = "<b>%s</b>\n%b"
+    frame_color = "#aaaaaa"
+    frame_width = 2
+    height = 300
+    hide_duplicate_count = false
+    history_length = 200
+    horizontal_padding = 20
+    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_position = left
+    idle_threshold = 120
+    ignore_dbusclose = false
+    ignore_newline = no
+    indicate_hidden = yes
+    line_height = 4
+    markup = full
+    max_icon_size = 48
+    min_icon_size = 0
+    monitor = 0
+    mouse_left_click = do_action, open_url, close_current
+    mouse_middle_click = close_all
+    mouse_right_click = context_all
+    notification_limit = 5
+    offset = 10x50
+    origin = top-right
+    padding = 20
+    progress_bar = true
+    progress_bar_frame_width = 1
+    progress_bar_height = 10
+    progress_bar_max_width = 300
+    progress_bar_min_width = 150
+    scale = 0
+    separator_color = auto
+    separator_height = 4
+    show_age_threshold = 60
+    show_indicators = yes
+    shrink = no
+    sort = yes
+    stack_duplicates = false
+    sticky_history = yes
+    text_icon_padding = 0
+    title = Dunst
+    transparency = 15
+    vertical_alignment = center
+    width = 300
+    word_wrap = yes
+
+[experimental]
+    per_monitor_dpi = false
+[urgency_low]
+    frame_color = "#7aa2f7"
+    foreground = "#7aa2f7"
+    background = "#1a1b26"
+    timeout = 5
+
+[urgency_normal]
+    frame_color = "#444b6a"
+    foreground = "#a9b1d6"
+    background = "#1a1b26"
+    timeout = 5
+
+[urgency_critical]
+    frame_color = "#f7768e"
+    foreground = "#f7768e"
+    background = "#1a1b26"
+    timeout = 5
+
+[fullscreen_show_critical]
+    msg_urgency = critical
+    fullscreen = show
+
+
